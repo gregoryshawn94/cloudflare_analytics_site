@@ -1,3 +1,7 @@
+import { SITE_CONFIG, NAV_ITEMS, CONTENT_PILLARS } from "./config.js";
+import { DASHBOARDS } from "./content/dashboards/index.js";
+import { BLOG_POSTS } from "./content/posts/index.js";
+
 function normalizePath(pathname) {
   let path = pathname.replace(/\/index\.html$/, "/").replace(/\.html$/, "");
   if (path.length > 1 && path.endsWith("/")) path = path.slice(0, -1);
