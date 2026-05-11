@@ -3,52 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | Shawn Gregory Analytics</title>
+  <title>About | Applied Analytics for Impact</title>
+  <meta name="description" content="About the site and its analytics focus." />
   <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="/assets/config.js" defer></script>
+  <script src="/assets/layout.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-  <nav class="nav">
-    <a class="brand" href="/">Shawn Gregory Analytics</a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/dashboards">Dashboards</a>
-      <a href="/blog">Blog</a>
-      <a href="/about">About</a>
-      <a class="nav-cta" href="/contact">Contact</a>
-    </div>
-  </nav>
-</header>
-
+  <div id="site-header"></div>
+  
   <main class="container">
     <div class="eyebrow">About</div>
-    <h1>About Shawn Gregory Analytics</h1>
-    <p>
-      This site shares practical analytics tools for manufacturing, supply chain,
-      procurement, capacity planning, and operational decision support.
+    <h1>Advanced analytics for practical impact.</h1>
+    <p class="lede">
+      This site is a portfolio and publishing hub for Python analytics across manufacturing,
+      supply chain, factory physics, materials science, gardening, finance, and decision support.
     </p>
 
     <section class="grid-3">
       <article class="card">
+        <h3>What this is</h3>
+        <p>
+          A working portfolio of dashboards, models, technical notes, and reusable analytics patterns.
+        </p>
+      </article>
+      <article class="card">
         <h3>Technical stack</h3>
-        <p>Python, pandas, Plotly, Streamlit, optimization, simulation, and future LLM-enabled workflows.</p>
+        <p>
+          Python, pandas, Plotly, Streamlit, simulation, optimization, data apps, and eventually LLM-enabled workflows.
+        </p>
       </article>
       <article class="card">
-        <h3>Business focus</h3>
-        <p>Capacity, OEE, throughput, supplier risk, factory physics, procurement, and operational strategy.</p>
-      </article>
-      <article class="card">
-        <h3>Goal</h3>
-        <p>Build analytics tools that are clear enough for decision-makers and rigorous enough for operators.</p>
+        <h3>Design principle</h3>
+        <p>
+          Make the analysis rigorous enough for technical users and clear enough for business decisions.
+        </p>
       </article>
     </section>
   </main>
 
-  <footer class="site-footer">
-  <div class="container">
-    <p>© <span data-year></span> Shawn Gregory Analytics. Built with Cloudflare Pages.</p>
-  </div>
-</footer>
-<script src="/assets/script.js"></script>
+  <div id="site-footer"></div>
 </body>
 </html>

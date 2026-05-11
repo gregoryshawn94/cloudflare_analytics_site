@@ -3,51 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog | Shawn Gregory Analytics</title>
-  <meta name="description" content="Technical notes and case studies on manufacturing analytics, supply chain analytics, and Python dashboards." />
+  <title>Blog | Applied Analytics for Impact</title>
+  <meta name="description" content="Technical notes and case studies on Python analytics, materials science, factory physics, supply chain, gardening, and finance." />
   <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="/assets/config.js" defer></script>
+  <script src="/assets/layout.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-  <nav class="nav">
-    <a class="brand" href="/">Shawn Gregory Analytics</a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/dashboards">Dashboards</a>
-      <a href="/blog">Blog</a>
-      <a href="/about">About</a>
-      <a class="nav-cta" href="/contact">Contact</a>
-    </div>
-  </nav>
-</header>
-
+  <div id="site-header"></div>
+  
   <main class="container">
     <div class="eyebrow">Writing</div>
     <h1>Blog</h1>
     <p>
       Technical notes, dashboard case studies, modeling patterns, and practical analytics workflows.
     </p>
-
-    <section class="post-list">
-      <a class="post-link card" href="/blog/capacity-planning-case-study.html">
-        <h3>Capacity Planning Dashboard: demand → routing → load → bottleneck</h3>
-        <p>
-          A short case study explaining the logic behind the capacity planning dashboard.
-        </p>
-        <div class="tag-list">
-          <span class="tag">capacity planning</span>
-          <span class="tag">streamlit</span>
-          <span class="tag">manufacturing analytics</span>
-        </div>
-      </a>
-    </section>
+    <div class="listing-grid" data-blog-list></div>
   </main>
 
-  <footer class="site-footer">
-  <div class="container">
-    <p>© <span data-year></span> Shawn Gregory Analytics. Built with Cloudflare Pages.</p>
-  </div>
-</footer>
-<script src="/assets/script.js"></script>
+  <div id="site-footer"></div>
 </body>
 </html>

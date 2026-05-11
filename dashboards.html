@@ -3,64 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboards | Shawn Gregory Analytics</title>
-  <meta name="description" content="Interactive analytics dashboards built with Python, Streamlit, pandas, and Plotly." />
+  <title>Dashboards | Applied Analytics for Impact</title>
+  <meta name="description" content="Interactive Python dashboard demos across capacity planning, OEE, supply chain risk, materials screening, gardening, and finance." />
   <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="/assets/config.js" defer></script>
+  <script src="/assets/layout.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-  <nav class="nav">
-    <a class="brand" href="/">Shawn Gregory Analytics</a>
-    <div class="nav-links">
-      <a href="/">Home</a>
-      <a href="/dashboards">Dashboards</a>
-      <a href="/blog">Blog</a>
-      <a href="/about">About</a>
-      <a class="nav-cta" href="/contact">Contact</a>
-    </div>
-  </nav>
-</header>
-
+  <div id="site-header"></div>
+  
   <main class="container">
-    <section class="dashboard-header">
-      <div class="eyebrow">Live dashboard</div>
-      <h1>Capacity Planning Dashboard</h1>
-      <p>
-        This dashboard converts product demand, routing assumptions, process times,
-        tool counts, available hours, and OEE assumptions into workload, available
-        capacity, utilization, capacity gaps, and bottleneck flags.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="https://basic-capacity-model.streamlit.app/" target="_blank" rel="noopener">
-          Open full-screen app
-        </a>
-        <a class="button secondary" href="/blog">
-          Read case study
-        </a>
-      </div>
-    </section>
-
-    <section class="notice">
-      Replace the iframe URL below with your actual Streamlit app URL. Keep
-      <strong>?embed=true</strong> at the end for a cleaner embedded view.
-    </section>
-
-    <br />
-
-    <section class="app-frame">
-      <iframe
-        src="https://basic-capacity-model.streamlit.app/?embed=true"
-        title="Capacity Planning Dashboard"
-        loading="lazy">
-      </iframe>
-    </section>
+    <div class="eyebrow">Dashboard library</div>
+    <h1>Interactive dashboards</h1>
+    <p>
+      A growing library of Python dashboards and analytics tools. Live tools are embedded directly;
+      planned tools show the intended use case and input/output design.
+    </p>
+    <div class="listing-grid" data-dashboard-list></div>
   </main>
 
-  <footer class="site-footer">
-  <div class="container">
-    <p>© <span data-year></span> Shawn Gregory Analytics. Built with Cloudflare Pages.</p>
-  </div>
-</footer>
-<script src="/assets/script.js"></script>
+  <div id="site-footer"></div>
 </body>
 </html>
