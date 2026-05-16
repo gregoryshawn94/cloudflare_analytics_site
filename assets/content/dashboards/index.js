@@ -7,11 +7,13 @@ import gardenYield from "./garden-yield.js";
 import personalFinance from "./personal-finance.js";
 import test from "./test.js";
 import semiFeolCapModelV2 from "./semi-feol-cap-model-v2.js";
+import gpNetwork from "./gp-network.js";
 
 const DASHBOARDS = [
   sagTest1,
   basicCapacityModel,
   semiFeolCapModelV2,
+  gpNetwork,
   oeeThroughput,
   supplyChainRisk,
   materialsScreening,
