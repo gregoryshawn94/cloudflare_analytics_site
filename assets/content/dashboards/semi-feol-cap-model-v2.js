@@ -10,7 +10,7 @@ const dashboard = {
   inputs: ["Demand", "Routing", "Process time", "Tool count", "Available hours", "OEE assumptions"],
   outputs: ["Required load", "Available capacity", "Utilization", "Capacity gap", "Bottleneck status"],
   tags: ["capacity", "OEE", "manufacturing", "Streamlit", "factory physics"],
-  featured: True
+  featured: true
 };
 
 export default dashboard;
