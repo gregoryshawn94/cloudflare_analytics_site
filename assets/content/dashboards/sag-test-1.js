@@ -10,7 +10,7 @@ const dashboard = {
   inputs: ["Interactive user selections", "Dashboard data", "Filter assumptions"],
   outputs: ["Interactive charts", "Calculated metrics", "Exploratory analytics views"],
   tags: ["Streamlit", "Python", "analytics", "demo"],
-  featured: true
+  featured: false
 };
 
 export default dashboard;
